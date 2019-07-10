@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "rootDir": "./",
+    "baseUrl": ".",
+    "lib": [
+      "es2015"
+    ],
+    "sourceMap": true,
+    "jsx": "react",
+    "jsxFactory": "React.createElement",
+    "allowJs": true,
+    "paths": {
+      "@src/*": ["app/client/src/*"]
+    }
+  }
+}

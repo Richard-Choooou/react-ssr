@@ -1,0 +1,6 @@
+{
+    "ignore": ["./app/client/**", "**/*.test.ts", "**/*.spec.ts", ".git", "node_modules"],
+    "watch": ["./app/server/**"],
+    "exec": "npm run nodemon:dev",
+    "ext": "js"
+}

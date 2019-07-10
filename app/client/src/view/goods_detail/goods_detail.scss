@@ -1,0 +1,36 @@
+.goods-detail-container {
+
+    .goods-info {
+        margin: 10px 0;
+        padding: 8px;
+
+        box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.1);
+        h1 {
+            font-weight: bold;
+            font-size: 18px;
+            color: #333;
+        }
+
+        p {
+            margin-top: 8px;
+        }
+
+        .intro {
+            font-size: 16px;
+            color: #666;
+        }
+
+        .price {
+            font-size: 16px;
+            color: #009688;
+        }
+    }
+
+    .rich-content-container {
+        background: #fff;
+
+        img {
+            width: 100%;
+        }
+    }
+}
